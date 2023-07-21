@@ -1,56 +1,83 @@
 
 @import url('https://fonts.googleapis.com/css?family=Albert Sans');
 
-body {
+body 
+{
   font-family: "Albert Sans";
 }
 
 #FixedNavBar 
-
 {
 
   background-color: white;
   
-    margin-top: -15px;
+  margin-top: -15px;
 
-    position: fixed;
+  position: fixed;
 
-    display: flex;
+  align-items: center;
 
-    align-items: center;
+  width: 100%;
 
-    width: 100%;
+  z-index: 1;
 
-    z-index: 1;
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 
-    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  transition: 1s;
 
-    transition: 1s;
-
-    padding-bottom: -50px;
+  padding-bottom: -50px;
     
-    margin-bottom: -50px;
-
-    justify-content: center;
+  margin-bottom: -50px;
 
 }
 
-#AboutMeButton {
-  background-color: white;
-  border: none;
-  color: #565656;
+#Title
+{
+
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12pt;
-  border-radius: 12px;
-  font-weight: bold;
-  transition: all 0.5s;
-  cursor: pointer;
+
+  float: left;
+
+  font-size: 18px;
+
 }
-#AboutMeButton:hover {
+
+#AboutMeButton 
+{
+
+  float:right;
+
+  background-color: white;
+
+  border: none;
+
+  color: #565656;
+  
+  padding: 15px 32px;
+  
+  text-align: center;
+  
+  text-decoration: none;
+  
+  display: inline-block;
+  
+  font-size: 12pt;
+  
+  border-radius: 12px;
+  
+  font-weight: bold;
+  
+  transition: all 0.5s;
+  
+  cursor: pointer;
+
+}
+
+#AboutMeButton:hover 
+{
+
   background-color: lightcyan;
+
 }
 
 #Text
@@ -76,12 +103,7 @@ body {
 
 }
 
-#Projects
-{
 
-
-
-}
 
 #Achievements
 {
@@ -91,6 +113,13 @@ body {
 }
 
 #Experience
+{
+
+
+
+}
+
+#Summary
 {
 
 
