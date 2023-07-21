@@ -1,19 +1,4 @@
 
-/*
-window.onscroll = function() {scrollFunction()};
-
-var oldScrollY = window.scrollY;
-function scrollFunction() {
-  if (oldScrollY < window.scrollY) {
-    document.getElementById("FixedHeader").style.height = "0px";
-    document.getElementById("FixedHeader").style.top = "-50px";
-  } else {
-    document.getElementById("FixedHeader").style.height = "70px";
-    document.getElementById("FixedHeader").style.top = "0px";
-
-  }
-}
-*/
 // Initial state
 var scrollPos = 0;
 // adding scroll event
@@ -62,23 +47,7 @@ for (var i = 0; i < reveals.length; i++) {
 }
 
 }
-/*
-function sliderReveal() {
-  var reveals = document.querySelectorAll(".sliderdivtestdonttouch");
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-}
-}
-*/
 window.addEventListener("scroll", apple);
 function apple() {
   var apple = document.querySelectorAll(".Apple");
