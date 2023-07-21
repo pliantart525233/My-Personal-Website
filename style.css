@@ -5,10 +5,13 @@ body {
   font-family: "Albert Sans";
 }
 
-#FixedHeader 
+#FixedNavBar 
 
 {
-    margin-top: -10px;
+
+  background-color: white;
+  
+    margin-top: -15px;
 
     position: fixed;
 
@@ -30,6 +33,11 @@ body {
 
     justify-content: center;
 
+}
+
+#Beginning
+{
+  background: black;
 }
 
 #Text
