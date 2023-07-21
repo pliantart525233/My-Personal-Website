@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css?family=Albert Sans');
+
+body {
+  font-family: "Albert Sans";
+}
+
+#FixedHeader 
+
+{
+    margin-top: -10px;
+
+    position: fixed;
+
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+
+    z-index: 1;
+
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+
+    transition: 1s;
+
+    padding-bottom: -50px;
+    
+    margin-bottom: -50px;
+
+    justify-content: center;
+
+}
+
+#Text
+{
+
+  position: relative;
+
+  font-size: 19px
+  
+}
+
+.Images
+
+{
+  width: 50px;
+
+  height: 50px;    
+}
+
+#AboutMeButton {
+  background-color: white;
+  border: none;
+  color: #565656;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#AboutMeButton:hover {
+  background-color: lightcyan;
+}
+
+.sliderdivtestdonttouch{
+  transition: 1s;
+  opacity: 0;
+  transform: translateX(150px);
+}
+.sliderdivtestdonttouch.active{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#slider {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  float: right;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  /*
+  transition: 1s;
+  opacity: 0;
+  transform: translateX(-150px);
+  */
+}
+
+
+#slider ul {
+  position: sticky;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+
+  position: sticky;
+
+  height: 100%;
+
+  float: left;
+
+  animation: slides 5s infinite ease-out;
+}
+
+@keyframes slides {
+  0%{left: 0;}
+  20%{left: 0;}
+  30%{left: -500px;}
+  50%{left: -500px;}
+  60%{left: -1000px;}
+  90%{left: -1000px;}
+  100%{left: 0px;}
+} 
+#slider ul li img{
+  position:sticky;
+  width: 500px;
+  height: 300px;
+}
+  #videoHeader{
+    width: 100%;
+    height:75%;
+    margin: 0 auto;
+    
+  }
+
+#backgroundVideo{
+  object-fit:cover;
+  height: 75%;
+  width:100%;
+}
+
+#Socials
+{
+
+  margin-left:15%
+
+}
+
+.SmallFont
+{
+
+  font-size: 15px;
+
+}
+
+#headerText{
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  font-size: 70px;
+  color: black;
+  z-index: 50000;
+  margin-top: 0px;
+  display: flex;
+  align-items: left;
+  width: 98%;
+  padding-bottom: -50px;
+  margin-bottom: -50px;
+  color: white;
+  font-family: "Albert Sans";
+}
+
+@keyframes slides {
+  0%{left: 0;}
+  20%{left: 0;}
+  30%{left: -500px;}
+  50%{left: -500px;}
+  60%{left: -1000px;}
+  90%{left: -1000px;}
+  100%{left: 0px;}
+} 
+
+/*
+@media (max-width: 768px) {
+  nav{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 8rem;
+  }
+  body{
+      padding: 1rem 0;
+  }
+  body > nav > div{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 2rem;
+  }
+  body > nav > div > a{
+      padding: 0.3rem 0;
+  }
+  #apresentacao {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #apresentacao > div{
+      text-align: center;
+  }
+
+  #experiencia{
+
+      text-align: center;
+
+  }
+
+  .item-exp{
+
+      margin: 1rem 0;
+
+  }
+
+}*/
