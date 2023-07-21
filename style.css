@@ -35,28 +35,6 @@ body {
 
 }
 
-#Beginning
-{
-  background: black;
-}
-
-#Text
-{
-
-  position: relative;
-
-  font-size: 19px
-  
-}
-
-.Images
-
-{
-  width: 50px;
-
-  height: 50px;    
-}
-
 #AboutMeButton {
   background-color: white;
   border: none;
@@ -75,11 +53,63 @@ body {
   background-color: lightcyan;
 }
 
+#Text
+{
+
+  position: relative;
+
+  font-size: 19px
+  
+}
+
+#Beginning
+{
+
+  background-color: black;
+  
+}
+
+#Academic
+{
+
+
+
+}
+
+#Projects
+{
+
+
+
+}
+
+#Achievements
+{
+
+
+
+}
+
+#Experience
+{
+
+
+
+}
+
 #Socials
 {
 
   margin-left:15%
 
+}
+
+.Images
+
+{
+  width: 50px;
+
+  height: 50px;    
 }
 
 .SmallFont
