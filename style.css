@@ -4,12 +4,14 @@
 body 
 {
   font-family: "Albert Sans";
+
+  background-color: #D8D8D8;
 }
 
 #FixedNavBar 
 {
 
-  background-color: white;
+  background-color: #D8D8D8;
   
   margin-top: -15px;
 
@@ -42,8 +44,6 @@ body
 
   transition: 0.8s;
 
-  opacity: 1.0;
-
 }
 
 .AboutMeButton 
@@ -53,7 +53,7 @@ body
 
   transition: 0.8s;
 
-  background-color: white;
+  background-color: #D8D8D8;
 
   border: none;
 
@@ -73,11 +73,9 @@ body
   
   font-weight: bold;
   
-  transition: all 0.5s;
+  transition: all 0.8s;
   
   cursor: pointer;
-  
-  opacity: 1.0;
 
 }
 
