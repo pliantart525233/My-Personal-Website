@@ -327,3 +327,93 @@ body
   font-size: 15px;
 
 }
+
+
+
+/* Animations */
+
+
+
+/*@keyframes slideInLeft 
+{
+  0% 
+  {
+    -webkit-transform: translate3d(-150%, 0, 0);
+    transform: translate3d(-150%, 0, 0);
+    visibility: visible;
+  }
+  
+  100% 
+  {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+}
+
+@keyframes slideInRight 
+{
+  0% 
+  {
+    -webkit-transform: translate3d(150%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+    visibility: visible;
+  }
+  
+  100% 
+  {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+}
+
+.SlideFromTheLeft
+{
+
+  animation-duration: 1.2s;
+  animation-name: slideInLeft;
+  animation-iteration-count: 1;
+
+}
+
+.SlideFromTheRight
+{
+
+  animation-duration: 1.2s;
+  animation-name: slideInRight;
+  animation-iteration-count: 1;
+
+}*/
+
+.SlideFromTheLeft
+{
+
+  position: relative;
+  transform: translateX(-150%);
+  opacity: 0;
+  transition: 1s all ease;
+
+}
+
+.SlideFromTheRight
+{
+
+  position: relative;
+  transform: translateX(150%);
+  opacity: 0;
+  transition: 1s all ease;
+
+}
+
+.SlideFromTheLeft.active
+{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.SlideFromTheRight.active
+{
+  transform: translateX(0);
+  opacity: 1;
+}
