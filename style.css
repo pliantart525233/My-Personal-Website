@@ -6,6 +6,8 @@ body
   font-family: "Albert Sans";
 
   background-color: #D8D8D8;
+
+  z-index: -2;
 }
 
 #FixedNavBar 
@@ -154,6 +156,8 @@ body
   left: 50%;
   
   margin-left: -3px;
+
+  z-index: -1;
 
 }
 
