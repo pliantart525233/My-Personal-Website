@@ -2,15 +2,22 @@
 // Data for the technologies
 
 var options = {
+
   responsive: true,
+  
   showTooltips: false,
+  
   animateScale: true,
+  
   animateRotate: true,
+  
   animation: true,
+  
   animationEasing: "linear"
+
 };
 
-var DataJava = [{value: 30, color: "#46BFBD"}, {value: 70, color: "#EEEEEE"}];
+var DataJava = [{value: 25, color: "#46BFBD"}, {value: 75, color: "#EEEEEE"}];
 
 var ChartJava = document.getElementById("JavaChart").getContext("2d");
 
@@ -24,15 +31,41 @@ new Chart(ChartPython).Doughnut(DataPython, options);
 
 var DataCSharp = [{value: 8, color: "#46BFBD"}, {value: 92, color: "#EEEEEE"}];
 
-var ChartCSharp= document.getElementById("CSharpChart").getContext("2d");
+var ChartCSharp = document.getElementById("CSharpChart").getContext("2d");
 
 new Chart(ChartCSharp).Doughnut(DataCSharp, options);
 
 var DataMySQL = [{value: 10, color: "#46BFBD"}, {value: 90, color: "#EEEEEE"}];
 
-var ChartMySQL= document.getElementById("MySQLChart").getContext("2d");
+var ChartMySQL = document.getElementById("MySQLChart").getContext("2d");
 
 new Chart(ChartMySQL).Doughnut(DataMySQL, options);
+
+
+
+var DataHTML = [{value: 40, color: "#46BFBD"}, {value: 60, color: "#EEEEEE"}];
+
+var ChartHTML = document.getElementById("HTMLChart").getContext("2d");
+
+new Chart(ChartHTML).Doughnut(DataHTML, options);
+
+var DataCSS = [{value: 30, color: "#46BFBD"}, {value: 70, color: "#EEEEEE"}];
+
+var ChartCSS = document.getElementById("CSSChart").getContext("2d");
+
+new Chart(ChartCSS).Doughnut(DataCSS, options);
+
+var DataJavaScript = [{value: 14, color: "#46BFBD"}, {value: 86, color: "#EEEEEE"}];
+
+var ChartJavaScript = document.getElementById("JavaScriptChart").getContext("2d");
+
+new Chart(ChartJavaScript).Doughnut(DataJavaScript, options);
+
+var DataJSP = [{value: 8, color: "#46BFBD"}, {value: 92, color: "#EEEEEE"}];
+
+var ChartJSP= document.getElementById("JSPChart").getContext("2d");
+
+new Chart(ChartJSP).Doughnut(DataJSP, options);
 
 // Other Functions
 
@@ -91,33 +124,6 @@ var reveals = document.querySelectorAll(".SlideFromTheRight");
     }
 
   }
-
-  var reveals = document.querySelectorAll("#JavaChart");
-
-  for (var i = 0; i < reveals.length; i++) 
-  {
-
-    var windowHeight = window.innerHeight;
-
-    var elementTop = reveals[i].getBoundingClientRect().top;
-
-    var elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) 
-    {
-
-      reveals[i].classList.add("active");
-
-    } 
-    
-    else 
-    {
-
-      reveals[i].classList.remove("active");
-
-    }
-
-}
 
 }
 

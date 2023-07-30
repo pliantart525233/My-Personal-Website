@@ -1,6 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Albert Sans');
 
+html
+{
+
+  max-width: 100%;
+
+  overflow-x: hidden;
+
+}
+
+* 
+{
+
+  box-sizing: border-box;
+
+}
+
 body 
 {
   font-family: "Albert Sans";
@@ -14,8 +30,6 @@ body
 {
 
   background-color: #D8D8D8;
-  
-  margin-top: -15px;
 
   position: fixed;
 
@@ -30,7 +44,9 @@ body
   transition: 0.8s;
 
   padding-bottom: -50px;
-    
+   
+  margin-top: -15px;
+
   margin-bottom: -50px;
 
   transition: all 0.5s;
@@ -55,8 +71,6 @@ body
 
   float:right;
 
-  transition: 0.8s;
-
   background-color: #D8D8D8;
 
   border: none;
@@ -68,8 +82,6 @@ body
   text-align: center;
   
   text-decoration: none;
-  
-  display: inline-block;
   
   font-size: 12pt;
   
@@ -90,31 +102,55 @@ body
 
 }
 
+#Introduction
+{
+
+  position: relative;
+
+  font-size: 26px;
+
+  Left:2%
+
+}
+
+#FarRight
+{
+
+  position: relative;
+
+  Left:80%
+
+}
+
 #Text
 {
 
   position: relative;
 
-  font-size: 19px
-  
+  font-size: 16px;
+
+  max-width: 50%;
+
+  Left:2%
+
 }
 
-#Technologies
+.Column
 {
+
+  float: right;
 
   display: flex;
 
-  justify-content: center;
+  justify-content: space-between;
+
+  min-width: 33%;
 
 }
 
 #JavaIcon
 {
 
-  display: flex;
-
-  align-items: center;
-  
   background-image: url(images/JavaLogo.png);
   
   padding: 0;
@@ -127,10 +163,6 @@ body
 
 #PythonIcon
 {
-
-  display: flex;
-
-  align-items: center;
   
   background-image: url(images/PythonLogo.png);
   
@@ -145,10 +177,6 @@ body
 #CSharpIcon
 {
 
-  display: flex;
-
-  align-items: center;
-  
   background-image: url(images/CSharpLogo.png);
   
   padding: 0;
@@ -162,11 +190,59 @@ body
 #MySQLIcon
 {
 
-  display: flex;
-
-  align-items: center;
+  background-image: url(images/MySQLLogo.png);
   
-  background-image: url(images/MySQL-Logo.png);
+  padding: 0;
+  
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+
+}
+
+#HTMLIcon
+{
+
+  background-image: url(images/HTMLLogo.png);
+  
+  padding: 0;
+  
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+
+}
+
+#CSSIcon
+{
+  
+  background-image: url(images/CSSLogo.png);
+  
+  padding: 0;
+  
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+
+}
+
+#JavaScriptIcon
+{
+
+  background-image: url(images/JavaScriptLogo.png);
+  
+  padding: 0;
+  
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+
+}
+
+#JSPIcon
+{
+
+  background-image: url(images/JSPLogo.png);
   
   padding: 0;
   
@@ -181,20 +257,6 @@ body
 
   background-color: black;
   
-}
-
-#Academic
-{
-
-
-
-}
-
-* 
-{
-
-  box-sizing: border-box;
-
 }
 
 #Achievements
@@ -358,13 +420,6 @@ body
 }
 
 #Experience
-{
-
-
-
-}
-
-#Summary
 {
 
 
