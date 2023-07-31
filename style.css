@@ -26,6 +26,12 @@ body
   z-index: -2;
 }
 
+
+
+/* Nav */
+
+
+
 #FixedNavBar 
 {
 
@@ -102,12 +108,19 @@ body
 
 }
 
-#Introduction
+/* No longer nav */
+
+h2
 {
 
   position: relative;
 
   font-size: 26px;
+
+}
+
+#Introduction
+{
 
   Left:2%
 
@@ -116,9 +129,7 @@ body
 #FarRight
 {
 
-  position: relative;
-
-  Left:80%
+  Left:44%
 
 }
 
@@ -129,13 +140,20 @@ body
 
   font-size: 16px;
 
-  max-width: 50%;
-
   Left:2%
 
 }
 
-.Column
+#Column1
+{
+
+  float: left;
+  
+  width: 50%;
+
+}
+
+.Column2
 {
 
   float: right;
@@ -250,13 +268,6 @@ body
   
   background-repeat: no-repeat;
 
-}
-
-#Beginning
-{
-
-  background-color: black;
-  
 }
 
 #Achievements
@@ -387,8 +398,6 @@ body
   
   right: -17px;
   
-  background-color: white;
-  
   border: 4px solid #FF9F55;
   
   top: 15px;
@@ -397,6 +406,27 @@ body
   
   z-index: 1;
 
+}
+
+.AchievementContainer::after
+{
+
+  background-color: white;
+
+}
+
+.ExperienceContainer::after
+{
+
+  background-color: rgb(151, 73, 0);
+  
+}
+
+.AcademicContainer::after
+{
+
+  background-color: rgb(3, 0, 151);
+  
 }
 
 .Right::after 
@@ -419,6 +449,32 @@ body
 
 }
 
+.ExperienceExplanation
+{
+
+  padding: 20px 30px;
+
+  background-color: rgb(151, 73, 0);
+  
+  position: relative;
+  
+  border-radius: 6px;
+
+}
+
+.AcademicExplanation
+{
+
+  padding: 20px 30px;
+
+  background-color: rgb(3, 0, 151);
+  
+  position: relative;
+  
+  border-radius: 6px;
+
+}
+
 #Experience
 {
 
@@ -429,7 +485,29 @@ body
 #Socials
 {
 
-  margin-left: 8%;
+  margin-left: 2%;
+
+}
+
+#Column3
+{
+
+  float: left;
+  
+  width: 20%;
+
+  margin: auto;
+
+}
+
+#Column4
+{
+
+  float: left;
+  
+  width: 20%;
+
+  margin: auto;
 
 }
 
