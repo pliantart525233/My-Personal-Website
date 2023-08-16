@@ -82,9 +82,9 @@ new Chart(ChartJSP).Doughnut(DataJSP, options);
 
   }
   
-}*/
+}
 
-document.addEventListener('touchmove', preventTouch, { passive: false });
+document.addEventListener('touchmove', preventTouch, { passive: false });*/
 
 var MyButton = document.getElementsByClassName("AboutMeButton");
 
