@@ -69,6 +69,23 @@ new Chart(ChartJSP).Doughnut(DataJSP, options);
 
 // Other Functions
 
+//Prevent mobile device from swapping screen to scroll
+
+function preventTouch(event) 
+{
+  
+  if (event.touches.length > 1) 
+  
+  {
+
+    event.preventDefault();
+
+  }
+  
+}
+
+document.addEventListener('touchmove', preventTouch, { passive: false });
+
 var MyButton = document.getElementsByClassName("AboutMeButton");
 
 window.addEventListener("scroll", aniReveal);

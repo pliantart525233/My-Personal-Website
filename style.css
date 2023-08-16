@@ -143,13 +143,6 @@ h2
 
 }
 
-#FarRight
-{
-
-  Left:2%
-
-}
-
 #Text
 {
 
@@ -157,7 +150,9 @@ h2
 
   font-size: 16px;
 
-  Left:2%
+  Left:2%;
+
+  max-width: 98%;
 
 }
 
@@ -177,7 +172,7 @@ h2
 
   display: inherit;
 
-  flex: 0 0 100%;
+  flex: 0 0 90%;
   
   scroll-snap-align: start;
   
@@ -674,6 +669,19 @@ h2
 
 @media (max-width: 768px) 
 {
+
+  #LangTitle
+  {
+
+    position: relative;
+
+    font-size: 10px;
+
+    Left:2%;
+
+    max-width: 98%;
+
+  }
   
   #LanguagesRow 
   {
