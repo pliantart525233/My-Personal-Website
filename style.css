@@ -669,49 +669,36 @@ h2
 
 @media (max-width: 768px) 
 {
-
-  #LangTitle
-  {
-
-    position: relative;
-
-    font-size: 10px;
-
-    Left:2%;
-
-    max-width: 98%;
-
-  }
   
   #LanguagesRow 
   {
   
-    flex-direction: column; /* Stack sections vertically on smaller screens */
+    flex-direction: column; 
   
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: hidden; 
   
   }
   
   #Column1 
   {
 
-    scroll-snap-type: none; /* Disable snap behavior */
+    scroll-snap-type: none; 
     
     min-width: auto;
     
-    min-height: 300px; /* Set a minimum height for sections */
+    min-height: 300px; 
   
   }
   
   .Column2 
   {
   
-    scroll-snap-type: none; /* Disable snap behavior */
+    scroll-snap-type: none; 
   
     min-width: auto;
   
-    min-height: 300px; /* Set a minimum height for sections */
-  
+    min-height: 300px; 
+
   }
 
 }

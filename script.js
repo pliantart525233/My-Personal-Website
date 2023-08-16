@@ -71,7 +71,7 @@ new Chart(ChartJSP).Doughnut(DataJSP, options);
 
 //Prevent mobile device from swapping screen to scroll
 
-function preventTouch(event) 
+/*function preventTouch(event) 
 {
   
   if (event.touches.length > 1) 
@@ -82,7 +82,7 @@ function preventTouch(event)
 
   }
   
-}
+}*/
 
 document.addEventListener('touchmove', preventTouch, { passive: false });
 
