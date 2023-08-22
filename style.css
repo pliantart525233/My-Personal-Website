@@ -320,32 +320,6 @@ h2
 
 }
 
-/*#Proof
-{
-
-  position: relative;
-
-}
-
-#OBA2018
-{
-
-  position: inherit;
-
-  top: 47px;
-
-  padding: 10px 40px;
-
-  min-width: 30%;
-
-  min-height: 15%;
-
-  max-width: 30%;
-
-  max-height: 15%;
-
-}*/
-
 #Achievements::after 
 {
 
@@ -541,13 +515,6 @@ h2
   position: relative;
   
   border-radius: 6px;
-
-}
-
-#Experience
-{
-
-
 
 }
 
