@@ -17,25 +17,25 @@ var options = {
 
 };
 
-var DataJava = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataJava = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#FFAB00"}];
 
 var ChartJava = document.getElementById("JavaChart").getContext("2d");
 
 new Chart(ChartJava).Doughnut(DataJava, options);
 
-var DataPython = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataPython = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#FFFA00"}];
 
 var ChartPython = document.getElementById("PythonChart").getContext("2d");
 
 new Chart(ChartPython).Doughnut(DataPython, options);
 
-var DataCSharp = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataCSharp = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#BA009F"}];
 
 var ChartCSharp = document.getElementById("CSharpChart").getContext("2d");
 
 new Chart(ChartCSharp).Doughnut(DataCSharp, options);
 
-var DataMySQL = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataMySQL = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#0046FF"}];
 
 var ChartMySQL = document.getElementById("MySQLChart").getContext("2d");
 
@@ -43,25 +43,25 @@ new Chart(ChartMySQL).Doughnut(DataMySQL, options);
 
 
 
-var DataHTML = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataHTML = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#FF5500"}];
 
 var ChartHTML = document.getElementById("HTMLChart").getContext("2d");
 
 new Chart(ChartHTML).Doughnut(DataHTML, options);
 
-var DataCSS = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataCSS = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#0011C2"}];
 
 var ChartCSS = document.getElementById("CSSChart").getContext("2d");
 
 new Chart(ChartCSS).Doughnut(DataCSS, options);
 
-var DataJavaScript = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataJavaScript = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#FFFD00"}];
 
 var ChartJavaScript = document.getElementById("JavaScriptChart").getContext("2d");
 
 new Chart(ChartJavaScript).Doughnut(DataJavaScript, options);
 
-var DataJSP = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#EEEEEE"}];
+var DataJSP = [{value: 0, color: "#46BFBD"}, {value: 1, color: "#000000"}];
 
 var ChartJSP= document.getElementById("JSPChart").getContext("2d");
 
