@@ -148,11 +148,18 @@ h2
 
   position: relative;
 
-  font-size: 16px;
+  font-size: 19px;
 
   Left:2%;
 
-  max-width: 98%;
+  max-width: 60%;
+
+}
+
+#Testing
+{
+
+  float: right;
 
 }
 
